@@ -4,6 +4,10 @@ body {
   user-select: none;
   overflow: hidden;
 }
+h2{
+  font-size: 1.5vw;
+}
+
 .flex {
   display: flex;
   flex-flow: wrap row;
@@ -23,7 +27,6 @@ body {
   background-color: rgba(243, 238, 238, 0.6);
   padding: .5rem;
   min-width: 25%;
- 
   border-radius: 50% 0%;
 
 }
@@ -44,6 +47,7 @@ margin:4rem auto 1rem auto;
 cursor: pointer;
 text-decoration: underline;
 animation: scale 1.3s infinite alternate;
+font-size: 1vw;
 }
 @keyframes scale{
     to{
