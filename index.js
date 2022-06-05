@@ -27,7 +27,7 @@ for (let i = 0; i < 6; i++) {
   h2El.style.color= color;
   const pEl = document.createElement("p");
   pEl.classList.add("pragraphStyle")
-  pEl.textContent = `Show animal ${i + 1} photo`;
+  pEl.textContent = `Show photo`;
   pEl.style.color = "white";
   myDiv.append(h2El, pEl);
   section.appendChild(myDiv);
